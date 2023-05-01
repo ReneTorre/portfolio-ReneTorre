@@ -1,5 +1,5 @@
 import React from 'react'; 
-import { Portfolio } from './portfolio';
+import { Portfolio } from './portfolio.jsx';
 import "./Pagina.css"
 import { useEffect, useState } from 'react';
 
