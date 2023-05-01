@@ -186,7 +186,7 @@ export function Pagina() {
             </h3>
 
             <div class="button-cta">
-                <a href="public/document/CV-ReneTorre.pdf" download="CV-Rene-Torre" arial-label="Baixar curriculo Rene Torre">
+                <a href="/public/document/CV-ReneTorre.pdf" download="CV-Rene-Torre" arial-label="Baixar curriculo Rene Torre">
                     Currículo
                 </a>
             </div>
