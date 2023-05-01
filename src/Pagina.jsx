@@ -12,6 +12,7 @@ import link_linkedin from "./assets/images/img/svg/logo-linkedin.svg"
 import link_githug from "./assets/images/img/svg/logo-github.svg"
 import link_instagram from "./assets/images/img/svg/logo-insta.svg"
 import img_rene from "./assets/images/img/FOTOS_RENE-04.jpg"
+import curriculo from "/public/document/CV-ReneTorre.pdf"
 
 
 
@@ -186,7 +187,7 @@ export function Pagina() {
             </h3>
 
             <div class="button-cta">
-                <a href="/public/document/CV-ReneTorre.pdf" download="CV-Rene-Torre" arial-label="Baixar curriculo Rene Torre">
+                <a href={curriculo} download="CV-Rene-Torre" arial-label="Baixar curriculo Rene Torre">
                     Currículo
                 </a>
             </div>
