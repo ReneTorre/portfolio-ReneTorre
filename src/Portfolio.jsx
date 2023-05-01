@@ -73,7 +73,7 @@ export function Portfolio() {
         <div class="wrapper-cards">
 
             <div class="gradient">
-              <p>Este projeto é um mini jogo do Mario que ainda esta em faze de aprimoramento mas, você
+              <p>Este projeto é um mini jogo do Mario que ainda esta em fase de aprimoramento mas, você
                 já consegue se divertir.</p>
 
               <div class="cta-project">
