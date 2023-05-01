@@ -2,6 +2,17 @@ import React from 'react';
 import { Portfolio } from './Portfolio';
 import "./Pagina.css"
 import { useEffect, useState } from 'react';
+import img_html from "./assets/images/img/svg/html.svg";
+import img_css from "./assets/images/img/svg/css.svg";
+import img_js from "./assets/images/img/svg/js.svg";
+import img_react from "./assets/images/img/svg/react.svg";
+import img_node from "./assets/images/img/svg/node.svg";
+import profile_photo from "./assets/images/img/FOTOS_RENE-20.jpg"
+import link_linkedin from "./assets/images/img/svg/logo-linkedin.svg"
+import link_githug from "./assets/images/img/svg/logo-github.svg"
+import link_instagram from "./assets/images/img/svg/logo-insta.svg"
+import img_rene from "./assets/images/img/FOTOS_RENE-04.jpg"
+
 
 
 export function Pagina() {  
@@ -86,23 +97,23 @@ export function Pagina() {
 
                 <div class="stacks">
                     <ul>
-                        <li> <div data="HMTL"> <img src="./src/assets/images/img/svg/html.svg" alt="html-icon"/> </div> </li>
+                        <li> <div data="HMTL"> <img src={img_html} alt="html-icon"/> </div> </li>
                     </ul>
 
                     <ul>
-                        <li> <div data="CSS"> <img src="./src/assets/images/img/svg/css.svg" alt="css-icon"/> </div> </li>
+                        <li> <div data="CSS"> <img src={img_css} alt="css-icon"/> </div> </li>
                     </ul>
                     
                     <ul>
-                        <li> <div data="JS"> <img src="./src/assets/images/img/svg/js.svg" alt="js-icon"/> </div> </li>
+                        <li> <div data="JS"> <img src={img_js} alt="js-icon"/> </div> </li>
                     </ul>
 
                     <ul>
-                        <li> <div data="REACT"> <img src="./src/assets/images/img/svg/react.svg" alt="react-icon"/> </div> </li>
+                        <li> <div data="REACT"> <img src={img_react} alt="react-icon"/> </div> </li>
                     </ul>
                     
                     <ul> 
-                        <li> <div data="NODE"> <img src="./src/assets/images/img/svg/node.svg" alt="node-icon"/> </div> </li>  
+                        <li> <div data="NODE"> <img src={img_node} alt="node-icon"/> </div> </li>  
                     </ul>
 
 
@@ -115,20 +126,20 @@ export function Pagina() {
 
         <div class="person-background">
             <div class="wrapper-profile-photo">
-                <img class="profile-photo" src="./src/assets/images/img/FOTOS_RENE-20.jpg" alt="Foto-Rene"/>
+                <img class="profile-photo" src={profile_photo} alt="Foto-Rene"/>
             </div>
 
             <div class="links">
                 <a href="https://www.linkedin.com/in/renetorre-" target="_blank">
-                    <img src="./src/assets/images/img/svg/logo-linkedin.svg" alt="linkedin-icon"/>
+                    <img src={link_linkedin} alt="linkedin-icon"/>
                 </a>
 
                 <a href="https://github.com/ReneTorre"target="_blank">
-                    <img src="./src/assets/images/img/svg/logo-github.svg" alt="github-icon"/>
+                    <img src={link_githug} alt="github-icon"/>
                 </a>
 
                 <a href="https://www.instagram.com/renetorre_/"target="_blank">
-                    <img src="./src/assets/images/img/svg/logo-insta.svg" alt="insta-icon"/>
+                    <img src={link_instagram} alt="insta-icon"/>
                 </a>
             </div>
 
@@ -142,7 +153,7 @@ export function Pagina() {
     <section id="about">
         <div class="background-about">
             <div class="img-wrapper">
-                <img src="./src/assets/images/img/FOTOS_RENE-04.jpg" alt="img2-Rene"/>
+                <img src={img_rene} alt="img2-Rene"/>
             </div>
         </div>
 
