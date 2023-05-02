@@ -16,6 +16,7 @@ import curriculo from "/public/document/CV-ReneTorre.pdf"
 
 
 
+
 export function Pagina() {  
 
     const [scrollY, setScrollY] = useState(window.scrollY);
