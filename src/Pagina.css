@@ -833,10 +833,6 @@ footer {
         position: relative;
         height: 7vh;
         text-decoration: none;
-
-        
-        
-        /* top: 50px; */
     
         background: var(--color-blue3);
     }
@@ -871,7 +867,6 @@ footer {
         width: 100%;
         position: fixed;
         top: 50px;
-
         z-index: 5;
     }
 }

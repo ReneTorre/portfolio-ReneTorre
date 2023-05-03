@@ -9,8 +9,8 @@ import 'swiper/css/navigation';
 import { EffectCoverflow, Pagination, Navigation} from 'swiper';
 
 import slide_image_1 from "./assets/images/img/calculadora.jpeg";
-import slide_image_2 from "./assets/images/img/mariojumpIA.jpg";
-import slide_image_3 from "./assets/images/img/pianoIA.jpg";
+import slide_image_2 from "./assets/images/img/mariojump.png";
+import slide_image_3 from "./assets/images/img/piano.png";
 import slide_image_4 from "./assets/images/img/pokedex.jpeg";
 import slide_image_5 from "./assets/images/img/previsao-do-tempo.jpeg";
 
@@ -73,8 +73,7 @@ export function Portfolio() {
         <div class="wrapper-cards">
 
             <div class="gradient">
-              <p>Este projeto é um mini jogo do Mario que ainda esta em fase de aprimoramento mas, você
-                já consegue se divertir.</p>
+              <p>Jogue o Mario Jump e faça o máximo de pontos que conseguir.</p>
 
               <div class="cta-project">
                 <a href="https://github.com/ReneTorre/mario-jump" target="_blank">
