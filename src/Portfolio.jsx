@@ -44,7 +44,7 @@ export function Portfolio() {
           <div class="wrapper-cards">
 
             <div class="gradient">
-              <p>Uma calculadora virtual totalmente funcional, neste projeto você pode fazer diversos tipos de
+              <p>Uma calculadora virtual totalmente funcional, neste projeto você pode fazer diversos
               cálculos.</p>
 
               <div class="cta-project">

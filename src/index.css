@@ -108,11 +108,13 @@ body {
   margin-top: 80%;
   font-size: 13px;
   font-weight: 700;
+  line-height: 1.5;
 
   text-shadow: black 2px 4px 8px;
 
   color: white;
 }
+
 
 .image-project {
   
