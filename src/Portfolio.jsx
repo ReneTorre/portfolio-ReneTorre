@@ -13,6 +13,7 @@ import slide_image_2 from "./assets/images/img/mariojump.png";
 import slide_image_3 from "./assets/images/img/piano.png";
 import slide_image_4 from "./assets/images/img/pokedex.jpeg";
 import slide_image_5 from "./assets/images/img/previsao-do-tempo.jpeg";
+import slide_image_6 from "./assets/images/img/cerebro.jpg";
 
 export function Portfolio() {
   return (
@@ -40,31 +41,32 @@ export function Portfolio() {
         className="swiper_container"
       >
       
+      
         <SwiperSlide>
+
           <div class="wrapper-cards">
 
             <div class="gradient">
-              <p>Uma calculadora virtual totalmente funcional, neste projeto você pode fazer diversos
-              cálculos.</p>
+              <p>Jogue o jogo da memória com o tema de Rick e Morty</p>
 
               <div class="cta-project">
-                <a href="https://github.com/ReneTorre/calculadora" target="_blank">
+                <a href="https://github.com/ReneTorre/Jogo-da-memoria" target="_blank">
                   <i class="fa-brands fa-github"></i>
                   Código
                 </a>
-                <a href="https://calculadora-renetorre.netlify.app" target="_blank">
+                <a href="https://jogodamemoria-renetorre.netlify.app/" target="_blank">
                   <i class="fa-solid fa-play"></i>
                   Exibir
                 </a>
               </div>
 
             </div>
-      
-            
-            <img class='img-cards' src={slide_image_1} alt="slide_image" />
+
+            <img class='img-cards' src={slide_image_6} alt="slide_image" />
 
           </div>
-           
+
+
         </SwiperSlide>
 
 
@@ -154,6 +156,33 @@ export function Portfolio() {
           
         </SwiperSlide>
 
+        <SwiperSlide>
+          <div class="wrapper-cards">
+
+            <div class="gradient">
+              <p>Uma calculadora virtual totalmente funcional, neste projeto você pode fazer diversos
+              cálculos.</p>
+
+              <div class="cta-project">
+                <a href="https://github.com/ReneTorre/calculadora" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                  Código
+                </a>
+                <a href="https://calculadora-renetorre.netlify.app" target="_blank">
+                  <i class="fa-solid fa-play"></i>
+                  Exibir
+                </a>
+              </div>
+
+            </div>
+      
+            
+            <img class='img-cards' src={slide_image_1} alt="slide_image" />
+
+          </div>
+           
+        </SwiperSlide>
+
 
         <SwiperSlide>
 
@@ -181,6 +210,8 @@ export function Portfolio() {
 
           
         </SwiperSlide>
+
+
 
         <div className="slider-controler">
           <div className="swiper-button-prev slider-arrow">

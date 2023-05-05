@@ -24,6 +24,20 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 11px;
+    background-color: transparent;
+  }
+  
+::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background: var(--color-blue2);
+  }
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #1d5e7a;
+  }
+
 #person {
     height: 100vh;
     width: 100%;
