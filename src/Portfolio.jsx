@@ -13,7 +13,7 @@ import slide_image_2 from "./assets/images/img/mariojump.png";
 import slide_image_3 from "./assets/images/img/piano.png";
 import slide_image_4 from "./assets/images/img/pokedex.jpeg";
 import slide_image_5 from "./assets/images/img/previsao-do-tempo.jpeg";
-import slide_image_6 from "./assets/images/img/cerebro.jpg";
+import slide_image_6 from "./assets/images/img/back.png";
 
 export function Portfolio() {
   return (
@@ -47,7 +47,7 @@ export function Portfolio() {
           <div class="wrapper-cards">
 
             <div class="gradient">
-              <p>Jogue o jogo da memória com o tema de Rick e Morty</p>
+              <p>Jogue o jogo da memória com o tema de Dragon Ball Z</p>
 
               <div class="cta-project">
                 <a href="https://github.com/ReneTorre/Jogo-da-memoria" target="_blank">
