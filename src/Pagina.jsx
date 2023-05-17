@@ -176,8 +176,8 @@ export function Pagina() {
             
             <h3>
                 Meu nome é Renê Torre, tenho 23 anos e estou em busca do meu primeiro 
-                emprego na área de Análise e Desenvolvimento de Sistemas. Atualmente, 
-                estou aberto a oportunidades como Estágio, Desenvolvedor Back-End ou 
+                emprego na área de Análise e Desenvolvimento de Sistemas e Infraestrutura de TI. Atualmente, 
+                estou aberto a oportunidades como Estágio, Suporte em TI, Desenvolvedor Back-End ou 
                 Front-End, com o objetivo de aplicar meus conhecimentos. Estou comprometido 
                 em aprender novas tecnologias e habilidades para me tornar um desenvolvedor 
                 ainda mais eficiente.
