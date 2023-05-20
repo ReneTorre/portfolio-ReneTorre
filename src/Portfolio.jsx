@@ -14,6 +14,7 @@ import slide_image_3 from "./assets/images/img/piano.png";
 import slide_image_4 from "./assets/images/img/pokedex.jpeg";
 import slide_image_5 from "./assets/images/img/previsao-do-tempo.jpeg";
 import slide_image_6 from "./assets/images/img/back.png";
+import slide_image_7 from "./assets/images/img/studiovarzea.png";
 
 export function Portfolio() {
   return (
@@ -42,6 +43,34 @@ export function Portfolio() {
       >
       
       
+        <SwiperSlide>
+
+          <div class="wrapper-cards">
+
+            <div class="gradient">
+              <p>Fiz um site para o Estúdio de Música do meu irmão, ainda estou a espera das imagens e alguns detalhes sobre o Estúdio, mas o site já está funcional.</p>
+
+              <div class="cta-project">
+                <a href="https://github.com/ReneTorre/projeto-estudio" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                  Código
+                </a>
+                <a href="https://studiovarzea.netlify.app/" target="_blank">
+                  <i class="fa-solid fa-play"></i>
+                  Exibir
+                </a>
+              </div>
+
+            </div>
+
+            <img class='img-cards' src={slide_image_7} alt="slide_image" />
+
+          </div>
+
+
+        </SwiperSlide>
+       
+       
         <SwiperSlide>
 
           <div class="wrapper-cards">
