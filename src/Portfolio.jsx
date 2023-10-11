@@ -48,7 +48,7 @@ export function Portfolio() {
           <div class="wrapper-cards">
 
             <div class="gradient">
-              <p>Fiz um site para o Estúdio de Música do meu irmão, ainda estou a espera das imagens e alguns detalhes sobre o Estúdio, mas o site já está funcional.</p>
+              <p>Fiz um site para o Estúdio de Música sdasdasd aaaaaaaado meu irmão, ainda estou a espera das imagens e alguns detalhes sobre o Estúdio, mas o site já está funcional.</p>
 
               <div class="cta-project">
                 <a href="https://github.com/ReneTorre/projeto-estudio" target="_blank">
